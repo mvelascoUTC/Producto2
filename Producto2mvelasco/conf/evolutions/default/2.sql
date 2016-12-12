@@ -49,7 +49,7 @@ insert into restaurante (id,nombre) values (20,'ales');
 
 
 
-insert into pedido (id,nombre,tipo,cantidad,precio,restaurante_id,pedido_id) values (  1,'arroz',mescaldo,1,20',null,null,1,1);
+insert into pedido (id,nombre,tipo,cantidad,precio,restaurante_id,restaurante_id) values (  1,'arroz',mescaldo,1,20',null,null,1,1);
 
 
 # --- !Downs
